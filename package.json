@@ -4,18 +4,18 @@
     "private": true,
     "dependencies": {},
     "devDependencies": {
-        "cordova-android": "5.2.1",
+        "cordova-android": "^9.0.0",
         "cordova-browser": "^6.0.0",
         "cordova-ios": "4.2.0",
-        "cordova-windows": "4.4.2",
-        "cordova-plugin-whitelist": "1.2.2"
+        "cordova-plugin-whitelist": "1.2.2",
+        "cordova-windows": "4.4.2"
     },
     "cordova": {
         "platforms": [
-            "android",
             "ios",
             "windows",
-            "browser"
+            "browser",
+            "android"
         ],
         "plugins": {
             "cordova-plugin-whitelist": {}
